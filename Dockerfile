@@ -1,3 +1,3 @@
-FROM daocloud.io/toby_lai/mqtt
+FROM daocloud.io/node:0.10-onbuild
 
 ENTRYPOINT ["sh","echo I'm a docker test"]
